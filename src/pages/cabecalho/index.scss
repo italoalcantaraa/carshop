@@ -1,0 +1,19 @@
+.Cabecalho{
+    display: flex;
+    align-items: flex-start;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+.Cabecalho div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 210px;
+    font-size: 21px;
+    font-weight: bold;
+    color: rgb(202, 202, 202);
+}
+.Cabecalho img{
+    width: 52px;
+}

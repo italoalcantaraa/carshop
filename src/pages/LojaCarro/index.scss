@@ -1,0 +1,75 @@
+
+.container-carro{
+    color: #646464;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 245, 245);
+    height: 86vh;
+}
+.conteudo-carro{
+    margin-top: 10px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(209, 209, 209, 0.411) 0px 0px 4px 2px;
+}
+.carro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #CACACA;
+    padding: 100px 30px;
+}
+.carro img{
+    width: 300px;
+}
+.compra-carro{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #fff;
+}
+.compra-carro input{
+    font-size: 18px;
+    width: 100%;
+    height: 34px;
+    border: #CACACA solid 2px;
+}
+.compra-carro h1{
+    font-size: 22px;
+    font-weight:600;
+}
+.parcela-juros{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 10px;
+    width: 310px;
+}
+.parcela-juros input{
+    font-size: 18px;
+    width: 140px;
+    height: 34px;
+    border: #CACACA solid 2px; 
+}
+.total-carro{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.total-carro button{
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #0084FF;
+    color: #fff;
+    padding: 14px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 12px;
+    outline: none;
+    cursor: pointer;
+}
